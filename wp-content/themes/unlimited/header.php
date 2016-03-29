@@ -40,6 +40,11 @@
 						);
 					?>
                 </nav>
+                <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
+				    <div class="slider">
+					   <?php dynamic_sidebar( 'sidebar-4' ); ?>
+				    </div>
+				<?php endif; ?>
 			</header>
             <div class="main-content" role="main">
 				

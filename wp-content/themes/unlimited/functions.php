@@ -91,6 +91,17 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
                     'after_title' => '</h2>'
                 )
             );
+            register_sidebar(
+                array(
+                    'name' => 'Slider',
+                    'id' => 'sidebar-4',
+                    'description' => 'Appears on all pages',
+                    'before_widget' => '<!--start widget -->',
+                    'after_widget' => '<!--end widget -->',
+                    'before_title' => '<h2 class="widget-title">',
+                    'after_title' => '</h2>'
+                )
+            );
         }
     }
      
