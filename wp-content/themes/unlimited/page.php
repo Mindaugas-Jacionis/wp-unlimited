@@ -8,7 +8,8 @@ get_header(); ?>
 	<div class="content-wrap">
 		<?php while( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<!-- Article no headline -->
+				<!-- Article headline -->
+				<h1 class="page-headline"><?php the_title(); ?></h1>
                 
 				<!-- Article content -->
 				<div class="entry-content">
