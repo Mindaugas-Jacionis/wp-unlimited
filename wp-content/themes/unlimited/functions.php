@@ -49,7 +49,34 @@ if ( ! function_exists( 'alpha_setup' )){
     }
     add_action( 'after_setup_theme', 'alpha_setup' );
 }
- 
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * 6.0 - Display navigation to the next/previous set of posts
+ * ----------------------------------------------------------------------------------------
+ */
+if ( ! function_exists( 'alpha_paging_nav' ) ) {
+	function alpha_paging_nav() { ?>
+		<div class="homepage-pagination">
+			<?php 
+				if ( get_previous_posts_link() ){
+				    previous_posts_link( __( '<button class="next-page"><h4>Ankstesnis puslapis</h4></button>', 'alpha' ) );
+				}else {
+                    echo __("<button class='next-page inactive'><h4>Ankstesnis puslapis</h4></button>", "alpha");
+                }
+				if ( get_next_posts_link() ){
+				    next_posts_link( __( '<button class="previous-button"><h4>Sekantis puslapis</h4></button>', 'alpha' ) );
+                } else{
+                    echo __("<button class='previous-page inactive'><h4>Sekantis puslapis</h4></button>", "alpha");
+                }
+			 ?>
+			 
+		</div>
+		<?php
+	}
+}
+
+
 /*
 *-------------------------------------------------------------------------------------------------------------------------------
 * Register our sidebars and widgetized areas.

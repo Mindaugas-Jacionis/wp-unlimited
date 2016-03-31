@@ -1,0 +1,1110 @@
+# Copyright (C) 2015 ThemePalace.com
+# This file is distributed under the GNU General Public License v3
+msgid ""
+msgstr ""
+"Project-Id-Version: Magzimum\n"
+"POT-Creation-Date: 2015-12-22 00:08+0545\n"
+"PO-Revision-Date: 2015-12-22 00:08+0545\n"
+"Last-Translator: Theme Palace <info@themepalace.com>\n"
+"Language-Team: Theme Palace <info@themepalace.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:18
+msgid "404"
+msgstr ""
+
+#: ../404.php:32
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr ""
+
+#: ../comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35 ../comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:75
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:80
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:85 ../template-parts/single-author-bio.php:12
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:92 ../inc/widgets.php:716 ../inc/widgets.php:957
+#: ../inc/widgets.php:987
+msgid "Comment"
+msgstr ""
+
+#: ../functions.php:69
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:70
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:71
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:72
+msgid "404 Menu"
+msgstr ""
+
+#: ../functions.php:120 ../sidebar.php:24
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../functions.php:129 ../sidebar-secondary.php:24
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../functions.php:138
+msgid "Header Right Widget Area"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Slider Right Widget Area"
+msgstr ""
+
+#: ../functions.php:156
+msgid "Front Page Widget Area"
+msgstr ""
+
+#: ../inc/customizer.php:54
+msgid "Upgrade To Pro &raquo;"
+msgstr ""
+
+#: ../inc/customizer.php:56
+msgid ""
+"Some settings might be missing or disorganized in this version of WordPress. "
+"So we suggest you to upgrade to version 4.0 or better."
+msgstr ""
+
+#: ../inc/customizer/breaking.php:15 ../inc/customizer/breaking.php:42
+msgid "Breaking News"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:46
+msgid "Breaking News Settings"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:51
+msgid "Enable for"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:56
+msgid "Title"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:60
+msgid "Category"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:64 ../inc/customizer/featured-content.php:63
+#: ../inc/widgets.php:1026 ../inc/widgets.php:1049 ../inc/widgets.php:1072
+#, fuzzy
+msgid "Show Date"
+msgstr "sdfg"
+
+#: ../inc/customizer/breaking.php:68
+msgid "Number of Posts"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:79 ../inc/customizer/featured-content.php:75
+#: ../inc/customizer/slider.php:62
+msgid "Transition Delay"
+msgstr ""
+
+#: ../inc/customizer/breaking.php:80 ../inc/customizer/featured-content.php:76
+#: ../inc/customizer/slider.php:63 ../inc/customizer/slider.php:76
+msgid "In second(s)"
+msgstr ""
+
+#: ../inc/customizer/core.php:15
+msgid "Search..."
+msgstr ""
+
+#: ../inc/customizer/core.php:36
+msgid "Themes Options"
+msgstr ""
+
+#: ../inc/customizer/core.php:40 ../inc/customizer/core.php:44
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer/core.php:54 ../inc/hook/header.php:151
+msgid "Search"
+msgstr ""
+
+#: ../inc/customizer/core.php:58
+msgid "Search Placeholder"
+msgstr ""
+
+#: ../inc/customizer/core.php:66 ../inc/customizer/core.php:70
+msgid "Social Icons"
+msgstr ""
+
+#: ../inc/customizer/core.php:72
+msgid "Please assign social menu."
+msgstr ""
+
+#: ../inc/customizer/core.php:72
+msgid "Assign now"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:46
+msgid "Featured Content"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:50
+msgid "Content Settings"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:55
+msgid "Show Arrow"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:59 ../inc/widgets.php:1032
+#: ../inc/widgets.php:1055
+msgid "Show Thumbnail"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:67 ../inc/widgets.php:1035
+#: ../inc/widgets.php:1058
+#, fuzzy
+msgid "Show Category"
+msgstr "sdfg"
+
+#: ../inc/customizer/featured-content.php:71 ../inc/customizer/slider.php:99
+msgid "Enable Autoplay"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:94
+msgid "Content Type"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:98
+msgid "Enable Featured Content on"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:103
+msgid "Select Content Type"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:109 ../inc/customizer/slider.php:122
+msgid "Select Category"
+msgstr ""
+
+#: ../inc/customizer/featured-content.php:114
+msgid "No of Posts"
+msgstr ""
+
+#: ../inc/customizer/settings.php:18
+msgid "Copyright. All rights reserved."
+msgstr ""
+
+#: ../inc/customizer/settings.php:26
+msgid "Read More ..."
+msgstr ""
+
+#: ../inc/customizer/settings.php:64
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer/settings.php:68
+msgid "Logo"
+msgstr ""
+
+#: ../inc/customizer/settings.php:73
+msgid "Show Tagline"
+msgstr ""
+
+#: ../inc/customizer/settings.php:77
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../inc/customizer/settings.php:85
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer/settings.php:89
+msgid "Copyright Text"
+msgstr ""
+
+#: ../inc/customizer/settings.php:93
+msgid "Show Go To Top"
+msgstr ""
+
+#: ../inc/customizer/settings.php:101
+msgid "Blog"
+msgstr ""
+
+#: ../inc/customizer/settings.php:105
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: ../inc/customizer/settings.php:106
+msgid "Default is 40 words"
+msgstr ""
+
+#: ../inc/customizer/settings.php:116
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/customizer/settings.php:121
+msgid "Exclude Categories in Blog"
+msgstr ""
+
+#: ../inc/customizer/settings.php:122
+msgid ""
+"Enter category ID to exclude in Blog Page. Separate with comma if more than "
+"one"
+msgstr ""
+
+#: ../inc/customizer/settings.php:127
+msgid "Show Author Bio"
+msgstr ""
+
+#: ../inc/customizer/settings.php:135
+msgid "Icons"
+msgstr ""
+
+#: ../inc/customizer/settings.php:139
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/customizer/settings.php:144
+msgid "Web Clip Icon"
+msgstr ""
+
+#: ../inc/customizer/settings.php:153
+msgid "Home Page"
+msgstr ""
+
+#: ../inc/customizer/settings.php:157
+msgid "Show Blog Listing"
+msgstr ""
+
+#: ../inc/customizer/settings.php:158
+msgid "Check to show blog listing in home page."
+msgstr ""
+
+#: ../inc/customizer/settings.php:167
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer/settings.php:171
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: ../inc/customizer/settings.php:172
+#, php-format
+msgid "Advanced: Requires %sBreadcrumb NavXT%s plugin"
+msgstr ""
+
+#: ../inc/customizer/settings.php:178
+msgid "Separator"
+msgstr ""
+
+#: ../inc/customizer/settings.php:187
+msgid "Pagination"
+msgstr ""
+
+#: ../inc/customizer/settings.php:191
+msgid "Pagination Type"
+msgstr ""
+
+#: ../inc/customizer/settings.php:192
+#, php-format
+msgid "Numeric: Requires %sWP-PageNavi%s plugin"
+msgstr ""
+
+#: ../inc/customizer/settings.php:202
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/settings.php:206
+msgid "Site Layout"
+msgstr ""
+
+#: ../inc/customizer/settings.php:212
+msgid "Global Layout"
+msgstr ""
+
+#: ../inc/customizer/settings.php:218
+msgid "Archive Layout"
+msgstr ""
+
+#: ../inc/customizer/settings.php:224
+msgid "Image in Single Post/Page"
+msgstr ""
+
+#: ../inc/customizer/slider.php:48
+msgid "Featured Slider Section"
+msgstr ""
+
+#: ../inc/customizer/slider.php:52
+msgid "Slider Settings"
+msgstr ""
+
+#: ../inc/customizer/slider.php:56
+msgid "Transition Effect"
+msgstr ""
+
+#: ../inc/customizer/slider.php:75
+msgid "Transition Duration"
+msgstr ""
+
+#: ../inc/customizer/slider.php:87
+msgid "Enable Caption"
+msgstr ""
+
+#: ../inc/customizer/slider.php:91
+msgid "Enable Arrow"
+msgstr ""
+
+#: ../inc/customizer/slider.php:95
+msgid "Enable Pager"
+msgstr ""
+
+#: ../inc/customizer/slider.php:103
+msgid "Enable Link in Image"
+msgstr ""
+
+#: ../inc/customizer/slider.php:112
+msgid "Slider Type"
+msgstr ""
+
+#: ../inc/customizer/slider.php:116
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../inc/customizer/slider.php:127
+msgid "No of Slides"
+msgstr ""
+
+#: ../inc/customizer/slider.php:143
+msgid "Slider Section"
+msgstr ""
+
+#: ../inc/customizer/slider.php:147
+msgid "Enable Slider Section on"
+msgstr ""
+
+#: ../inc/helper/common.php:65
+msgid "fade"
+msgstr ""
+
+#: ../inc/helper/common.php:66
+msgid "fadeout"
+msgstr ""
+
+#: ../inc/helper/common.php:67
+msgid "none"
+msgstr ""
+
+#: ../inc/helper/common.php:68
+msgid "scrollHorz"
+msgstr ""
+
+#: ../inc/helper/common.php:91
+msgid "Home Page / Front Page"
+msgstr ""
+
+#: ../inc/helper/common.php:92 ../inc/helper/common.php:312
+msgid "Entire Site"
+msgstr ""
+
+#: ../inc/helper/common.php:93 ../inc/helper/common.php:289
+#: ../inc/helper/common.php:313
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/helper/common.php:117 ../inc/helper/common.php:336
+msgid "Featured Category"
+msgstr ""
+
+#: ../inc/helper/common.php:141
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: ../inc/helper/common.php:142
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: ../inc/helper/common.php:143
+msgid "Three Columns"
+msgstr ""
+
+#: ../inc/helper/common.php:144
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/helper/common.php:164
+msgid "Fluid"
+msgstr ""
+
+#: ../inc/helper/common.php:165
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/helper/common.php:188
+msgid "Full Post"
+msgstr ""
+
+#: ../inc/helper/common.php:189
+msgid "Excerpt and Thumbnail"
+msgstr ""
+
+#: ../inc/helper/common.php:216
+msgid "No Image"
+msgstr ""
+
+#: ../inc/helper/common.php:221
+msgid "full (original)"
+msgstr ""
+
+#: ../inc/helper/common.php:247
+msgid "None"
+msgstr ""
+
+#: ../inc/helper/common.php:248
+msgid "Left"
+msgstr ""
+
+#: ../inc/helper/common.php:249
+msgid "Center"
+msgstr ""
+
+#: ../inc/helper/common.php:250
+msgid "Right"
+msgstr ""
+
+#: ../inc/helper/common.php:269
+msgid "Default (Older Post / Newer Post)"
+msgstr ""
+
+#: ../inc/helper/common.php:270
+msgid "Numeric"
+msgstr ""
+
+#: ../inc/helper/common.php:290
+msgid "Simple"
+msgstr ""
+
+#: ../inc/helper/common.php:291
+msgid "Advanced"
+msgstr ""
+
+#: ../inc/helper/common.php:310
+msgid "Home Page Only"
+msgstr ""
+
+#: ../inc/helper/common.php:311
+msgid "Home Page + Blog Page"
+msgstr ""
+
+#: ../inc/hook/blog.php:41
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:71 ../inc/hook/breadcrumb.php:72
+#, php-format
+msgid "Archive for <em>%s</em>"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:73
+#, php-format
+msgid "Search results for: <em>%s</em>"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:74
+#, php-format
+msgid "Posts tagged <em>%s</em>"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:75
+#, php-format
+msgid "View all posts by <em>%s</em>"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:76
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/hook/breadcrumb.php:198
+msgid "Page"
+msgstr ""
+
+#: ../inc/hook/custom.php:300
+msgid "Recommended Image Sizes"
+msgstr ""
+
+#: ../inc/hook/custom.php:301
+msgid "Slider Image"
+msgstr ""
+
+#: ../inc/hook/footer.php:70
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../inc/hook/footer.php:70
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../inc/hook/footer.php:72
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../inc/hook/structure.php:65
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/hook/tgm.php:16
+msgid "WP-PageNavi"
+msgstr ""
+
+#: ../inc/hook/tgm.php:21
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: ../inc/metabox.php:16
+msgid "Theme Settings"
+msgstr ""
+
+#: ../inc/metabox.php:54
+msgid "Choose Layout"
+msgstr ""
+
+#: ../inc/metabox.php:56 ../inc/metabox.php:68
+msgid "Default"
+msgstr ""
+
+#: ../inc/metabox.php:66
+msgid "Choose Image Size in Single Post/Page"
+msgstr ""
+
+#: ../inc/supports/footer-widgets.php:47
+#, php-format
+msgid "Footer Widget %d"
+msgstr ""
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:99
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:99 ../inc/widgets.php:296 ../inc/widgets.php:1358
+#: ../inc/widgets.php:1437
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:99 ../inc/widgets.php:296 ../inc/widgets.php:1358
+#: ../inc/widgets.php:1437
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. $categories_list = get_the_category_list( __( ', ', 'magzimum' ) );
+#. if ( $categories_list && magzimum_categorized_blog() ) {
+#. printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'magzimum' ) . '</span>', $categories_list );
+#. }
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:106 ../inc/template-tags.php:129
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:141 ../template-parts/content-page.php:34
+msgid "Edit"
+msgstr ""
+
+#: ../inc/template-tags.php:158
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:160
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:162
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:164
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:164
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../inc/template-tags.php:166
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:166
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../inc/template-tags.php:168
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:168
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: ../inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: ../inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: ../inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: ../inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: ../inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: ../inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: ../inc/template-tags.php:185
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: ../inc/template-tags.php:187
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: ../inc/template-tags.php:190
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: ../inc/template-tags.php:194
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:196
+msgid "Archives"
+msgstr ""
+
+#: ../inc/widgets.php:53
+msgid "Social Icons Widget"
+msgstr ""
+
+#: ../inc/widgets.php:129 ../inc/widgets.php:375 ../inc/widgets.php:623
+#: ../inc/widgets.php:1550
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets.php:133 ../inc/widgets.php:438 ../inc/widgets.php:665
+#: ../inc/widgets.php:1079 ../inc/widgets.php:1228 ../inc/widgets.php:1635
+msgid "Custom Class:"
+msgstr ""
+
+#: ../inc/widgets.php:148
+msgid "Social Menu is currently set to"
+msgstr ""
+
+#: ../inc/widgets.php:165
+msgid "Social menu is not set."
+msgstr ""
+
+#: ../inc/widgets.php:166
+msgid "Click here to set menu"
+msgstr ""
+
+#: ../inc/widgets.php:167
+msgctxt "Social Widget"
+msgid "or"
+msgstr ""
+
+#: ../inc/widgets.php:168
+msgid "Create menu now"
+msgstr ""
+
+#: ../inc/widgets.php:194
+msgid "Latest News Widget"
+msgstr ""
+
+#: ../inc/widgets.php:296 ../inc/widgets.php:1358 ../inc/widgets.php:1437
+msgid "No Comment"
+msgstr ""
+
+#: ../inc/widgets.php:379 ../inc/widgets.php:1213
+msgid "Category:"
+msgstr ""
+
+#: ../inc/widgets.php:388 ../inc/widgets.php:1222 ../inc/widgets.php:1563
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/widgets.php:394
+msgid "Number of Columns:"
+msgstr ""
+
+#: ../inc/widgets.php:405
+msgid "Featured Image:"
+msgstr ""
+
+#: ../inc/widgets.php:416 ../inc/widgets.php:1022 ../inc/widgets.php:1045
+#: ../inc/widgets.php:1609
+msgid "Number of Posts:"
+msgstr ""
+
+#: ../inc/widgets.php:420 ../inc/widgets.php:1587 ../inc/widgets.php:1617
+msgid "Excerpt Length:"
+msgstr ""
+
+#: ../inc/widgets.php:424 ../inc/widgets.php:1591 ../inc/widgets.php:1621
+msgid "Disable Excerpt"
+msgstr ""
+
+#: ../inc/widgets.php:427 ../inc/widgets.php:1595 ../inc/widgets.php:1624
+msgid "Disable Date"
+msgstr ""
+
+#: ../inc/widgets.php:430 ../inc/widgets.php:1599 ../inc/widgets.php:1627
+msgid "Disable Comment"
+msgstr ""
+
+#: ../inc/widgets.php:434 ../inc/widgets.php:1603 ../inc/widgets.php:1630
+msgid "Disable Category"
+msgstr ""
+
+#: ../inc/widgets.php:457
+#, php-format
+msgid "%d Column"
+msgstr ""
+
+#: ../inc/widgets.php:458
+#, php-format
+msgid "%d Columns"
+msgstr ""
+
+#: ../inc/widgets.php:529
+msgid "Ad Icons Widget"
+msgstr ""
+
+#: ../inc/widgets.php:627
+msgid "Option 1 : Ad Code"
+msgstr ""
+
+#: ../inc/widgets.php:629
+msgid "Adv Code:"
+msgstr ""
+
+#: ../inc/widgets.php:633
+msgid "Option 2 : Image"
+msgstr ""
+
+#: ../inc/widgets.php:635
+msgid "Image URL:"
+msgstr ""
+
+#: ../inc/widgets.php:637
+msgid "Upload"
+msgstr ""
+
+#: ../inc/widgets.php:637
+msgid "Select Image"
+msgstr ""
+
+#: ../inc/widgets.php:637
+msgid "Choose Image"
+msgstr ""
+
+#: ../inc/widgets.php:649
+msgid "Preview"
+msgstr ""
+
+#: ../inc/widgets.php:654
+msgid "Link URL:"
+msgstr ""
+
+#: ../inc/widgets.php:657
+msgid "Open in new window"
+msgstr ""
+
+#: ../inc/widgets.php:660
+msgid "Alt Text:"
+msgstr ""
+
+#: ../inc/widgets.php:669
+msgid "Note:"
+msgstr ""
+
+#: ../inc/widgets.php:669
+msgid "Option 2 will be ignored if Ad Code is available."
+msgstr ""
+
+#: ../inc/widgets.php:694
+msgid "Tabbed Widget"
+msgstr ""
+
+#: ../inc/widgets.php:704 ../inc/widgets.php:937 ../inc/widgets.php:973
+msgid "Popular"
+msgstr ""
+
+#: ../inc/widgets.php:710 ../inc/widgets.php:947 ../inc/widgets.php:980
+msgid "Recent"
+msgstr ""
+
+#: ../inc/widgets.php:824 ../inc/widgets.php:881
+#, php-format
+msgid "%d comment"
+msgstr ""
+
+#: ../inc/widgets.php:827 ../inc/widgets.php:884
+#, php-format
+msgid "%d comments"
+msgstr ""
+
+#: ../inc/widgets.php:918
+msgctxt "Tabbed Widget"
+msgid "on"
+msgstr ""
+
+#: ../inc/widgets.php:1015
+msgid "Popular Posts"
+msgstr ""
+
+#: ../inc/widgets.php:1018 ../inc/widgets.php:1041 ../inc/widgets.php:1064
+msgid "Tab Title:"
+msgstr ""
+
+#: ../inc/widgets.php:1029 ../inc/widgets.php:1052
+#, fuzzy
+msgid "Show Comment"
+msgstr "sdfg"
+
+#: ../inc/widgets.php:1038
+msgid "Recent Posts"
+msgstr ""
+
+#: ../inc/widgets.php:1061
+msgid "Comments"
+msgstr ""
+
+#: ../inc/widgets.php:1068
+msgid "Number of Comments:"
+msgstr ""
+
+#: ../inc/widgets.php:1103
+msgid "Special Posts Widget"
+msgstr ""
+
+#: ../inc/widgets.php:1206
+msgid "Enter two Post IDs or choose Category to display latest posts from."
+msgstr ""
+
+#: ../inc/widgets.php:1208
+msgid "Enter Post ID:"
+msgstr ""
+
+#: ../inc/widgets.php:1252
+msgid "Categorized News Widget"
+msgstr ""
+
+#: ../inc/widgets.php:1296
+msgid "View more from"
+msgstr ""
+
+#: ../inc/widgets.php:1554
+msgid "Select Category:"
+msgstr ""
+
+#: ../inc/widgets.php:1569
+msgid "Show View More Icon"
+msgstr ""
+
+#: ../inc/widgets.php:1569
+msgid "Icon will be displayed only if Category is selected."
+msgstr ""
+
+#: ../inc/widgets.php:1574
+msgid "For Main Block"
+msgstr ""
+
+#: ../inc/widgets.php:1576
+msgid "Select Image Size:"
+msgstr ""
+
+#: ../inc/widgets.php:1588 ../inc/widgets.php:1618
+msgid "in words"
+msgstr ""
+
+#: ../inc/widgets.php:1607
+msgid "For Side Block"
+msgstr ""
+
+#: ../inc/widgets.php:1613
+msgid "Thumbnail Width:"
+msgstr ""
+
+#: ../inc/widgets.php:1614
+msgid "in px"
+msgstr ""
+
+#: ../magzimum-customizer/controls.php:58
+msgid "Select Menu"
+msgstr ""
+
+#: ../magzimum-customizer/controls.php:94
+msgid "Select Sidebar"
+msgstr ""
+
+#: ../magzimum-customizer/controls.php:185
+msgid "Select"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:2
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../sidebar-secondary.php:25
+msgid ""
+"Widgets of Secondary Sidebar will be displayed here. To add widgets go to "
+"'Appearance' -> 'Widgets'."
+msgstr ""
+
+#: ../sidebar.php:25
+msgid ""
+"Widgets of Primary Sidebar will be displayed here. To add widgets go to "
+"'Appearance' -> 'Widgets'."
+msgstr ""
+
+#: ../template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:27
+#: ../template-parts/content-single.php:29 ../template-parts/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content.php:41
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../template-parts/single-author-bio.php:8
+msgid "Written by"
+msgstr ""
