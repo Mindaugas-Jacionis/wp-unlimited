@@ -4,8 +4,8 @@
 *
 * The theme's functions and definitions
 */
- 
- 
+
+
 /**
 *---------------------------------------------------------------------------------------------------------------------------
 * Set up the theme default and register various supported features
@@ -13,11 +13,11 @@
 */
 if ( ! function_exists( 'alpha_setup' )){
     function alpha_setup(){
-         
+
         /**
         * Add support for post formats
         */
-        add_theme_support( 'post-formats', 
+        add_theme_support( 'post-formats',
             array(
                 'gallery',
                 'link',
@@ -27,17 +27,17 @@ if ( ! function_exists( 'alpha_setup' )){
                 'audio'
             )
         );
- 
+
         /**
         * Add support for automatic feed links
         */
         add_theme_support( 'automatic-feed-links' );
- 
+
         /**
         * Add support for post thumbnails
         */
         add_theme_support( 'post-thumbnails' );
- 
+
         /**
         * Register nav menus
         */
@@ -58,19 +58,19 @@ if ( ! function_exists( 'alpha_setup' )){
 if ( ! function_exists( 'alpha_paging_nav' ) ) {
 	function alpha_paging_nav() { ?>
 		<div class="homepage-pagination">
-			<?php 
+			<?php
 				if ( get_previous_posts_link() ){
 				    previous_posts_link( __( '<button class="next-page"><h4>Ankstesnis puslapis</h4></button>', 'alpha' ) );
 				}else {
-                    echo __("<button class='next-page inactive'><h4>Ankstesnis puslapis</h4></button>", "alpha");
+                    echo __("<button class='next-page inactive' />", "alpha");
                 }
 				if ( get_next_posts_link() ){
 				    next_posts_link( __( '<button class="previous-button"><h4>Sekantis puslapis</h4></button>', 'alpha' ) );
                 } else{
-                    echo __("<button class='previous-page inactive'><h4>Sekantis puslapis</h4></button>", "alpha");
+                    echo __("<button class='previous-page inactive' />", "alpha");
                 }
 			 ?>
-			 
+
 		</div>
 		<?php
 	}
@@ -131,10 +131,10 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
             );
         }
     }
-     
+
     add_action( 'widgets_init', 'alpha_widget_init' );
 }
- 
+
 /*
 *-------------------------------------------------------------------------------------------------------------------------------
 * Add custom CSS to Admin dashboard.
@@ -148,7 +148,7 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
 //            #wp-admin-bar-wp-logo{
 //                display: none;
 //            }
-//             
+//
 //            #wp-admin-bar-new-content-default #wp-admin-bar-new-post{
 //                display: none;
 //            }
@@ -158,15 +158,15 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
 //            #widget-1_akismet_widget-__i__{
 //                display: none;
 //            }
-//             
+//
 //            .option-site-visibility{
 //                display: none;
 //            }
 //        </style>';
 //}
-// 
+//
 //add_action('admin_head', 'custom_admin_css');
- 
+
 /*
 *-------------------------------------------------------------------------------------------------------------------------------
 * Remove unneeded widgets.
@@ -187,7 +187,7 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
 //  unregister_widget('WP_Widget_Tag_Cloud');
 //  unregister_widget('WP_Nav_Menu_Widget');
 //}
-// 
+//
 //add_action( 'widgets_init', 'jpb_unregister_widgets' );
- 
+
 ?>
