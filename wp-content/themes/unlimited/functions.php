@@ -60,14 +60,14 @@ if ( ! function_exists( 'alpha_paging_nav' ) ) {
 		<div class="homepage-pagination">
 			<?php
 				if ( get_previous_posts_link() ){
-				    previous_posts_link( __( '<button class="next-page"><h4>Ankstesnis puslapis</h4></button>', 'alpha' ) );
+				    previous_posts_link( __( '<button class="previous-page" />', 'alpha' ) );
 				}else {
-                    echo __("<button class='next-page inactive' />", "alpha");
+                    echo __("<button class='previous-page inactive' />", "alpha");
                 }
 				if ( get_next_posts_link() ){
-				    next_posts_link( __( '<button class="previous-button"><h4>Sekantis puslapis</h4></button>', 'alpha' ) );
+				    next_posts_link( __( '<button class="next-page" />', 'alpha' ) );
                 } else{
-                    echo __("<button class='previous-page inactive' />", "alpha");
+                    echo __("<button class='next-page inactive' />", "alpha");
                 }
 			 ?>
 
