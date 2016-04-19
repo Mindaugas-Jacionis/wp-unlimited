@@ -40,12 +40,24 @@
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
+.RGBA-Gold(@opacity: 0.9){
+	background: rgba(224, 189, 62, @opacity);
+}
+
+.RGBA-Black(@opacity: 0.9){
+	background: rgba(37, 37, 37, @opacity);
+}
+
 .TransitionEaseIn(@time: 0.3s){
 	transition: all @time ease-in;
 }
 
 .TransitionLinear(@time: 0.3s){
 	transition: all @time linear;
+}
+
+.TransitionDelay(@time: 0.3s){
+	transition-delay: @time;
 }
 
 .DisplayFlexGrid{
@@ -128,42 +140,96 @@
         border-bottom: 3px solid @gold;
 
         ul{
-            list-style: none;
-            margin: 0 auto;
-            display: flex;
-            -webkit-box-pack: justify;
-            -webkit-justify-content: space-between;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-            -webkit-box-align: center;
-            -webkit-align-items: center;
-            -ms-flex-align: center;
-            align-items: center;
-            max-width: 1080px;
-            width: 100%;
-            height: 65px;
+			&.menu{
+	            list-style: none;
+	            margin: 0 auto;
+	            display: flex;
+	            -webkit-box-pack: justify;
+	            -webkit-justify-content: space-between;
+	            -ms-flex-pack: justify;
+	            justify-content: space-between;
+	            -webkit-box-align: center;
+	            -webkit-align-items: center;
+	            -ms-flex-align: center;
+	            align-items: center;
+	            max-width: 1080px;
+	            width: 100%;
+            	height: 65px;
+			}
 
             li{
                 display: inline-block;
                 cursor: pointer;
+				position: relative;
+				a{
+					display: block;
 
-                &:after{
-                    content: "";
-                    display: block;
-                    width: 100%;
-                    height: 0;
-                    background: @gold;
-                    //transition: height 0.15s linear;
+	                &:after{
+	                    content: "";
+	                    display: block;
+	                    width: 100%;
+	                    height: 0;
+	                    background: @gold;
+	                    //transition: height 0.15s linear;
 
-					.TransitionLinear(0.15s);
-                }
+						.TransitionLinear(0.15s);
+	                }
 
-                &:hover{
-                    &:after{
-                        height: 6px;
-                    }
-                }
-            }
+	                &:hover{
+	                    &:after{
+	                        height: 6px;
+	                    }
+	                }
+				}
+
+				ul{
+					&.sub-menu{
+						display: block;
+						background: @gold;
+						.RGBA-Gold();
+						position: absolute;
+						text-align: left;
+						z-index: 1;
+						max-height: 0;
+						.TransitionLinear(0.5s);
+						.TransitionDelay(0.1s);
+						li{
+							display: block;
+
+							a{
+								padding: 0 15px;
+								color: @black;
+								opacity: 0;
+								.TransitionLinear(0.3s);
+
+								&:after{
+									display: none;
+								}
+
+								&:hover{
+									background: @black;
+									color: @light-gold;
+								}
+							}
+						}
+					}
+				}
+
+				&:hover{
+					ul{
+						&.sub-menu{
+							.TransitionDelay(0s);
+							max-height: 384px;
+							li{
+								a{
+									.TransitionDelay(0.1s);
+									opacity: 1;
+								}
+							}
+						}
+					}
+				}
+			}
         }
     }
 
