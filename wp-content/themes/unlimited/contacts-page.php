@@ -13,7 +13,7 @@ get_header(); ?>
 	<div class="content-wrap">
 		<h1 class="page-headline"><?php the_title(); ?></h1>
 		<div class="contacts-list">
-			
+
 		</div>
 		<div class="content-bottom">
 			<?php if( !empty($contactForm) ): ?>
