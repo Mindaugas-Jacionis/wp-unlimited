@@ -1,6 +1,6 @@
 <?php
 /**
-* content-servicese-list-element.php
+* content-service.php
 *
 * The default template for displaying service in services list page.
 */
