@@ -350,8 +350,7 @@ class acf_field_group
 	
 	function admin_head()
 	{
-		// global
-		global $wp_version, $post;
+		global $post;
 		
 		
 		// l10n
@@ -379,7 +378,6 @@ class acf_field_group
 	acf.nonce = "<?php echo wp_create_nonce( 'acf_nonce' ); ?>";
 	acf.admin_url = "<?php echo admin_url(); ?>";
 	acf.ajaxurl = "<?php echo admin_url( 'admin-ajax.php' ); ?>";
-	acf.wp_version = "<?php echo $wp_version; ?>";
 	
 	
 	// l10n
@@ -726,13 +724,13 @@ class acf_field_group
 			case "post_status" :
 				
 				$choices = array(
-					'publish'	=> __( 'Published', 'acf'),
-					'pending'	=> __( 'Pending Review', 'acf'),
-					'draft'		=> __( 'Draft', 'acf'),
-					'future'	=> __( 'Future', 'acf'),
-					'private'	=> __( 'Private', 'acf'),
-					'inherit'	=> __( 'Revision', 'acf'),
-					'trash'		=> __( 'Trash', 'acf'),
+					'publish'	=> __( 'Publish' ),
+					'pending'	=> __( 'Pending Review' ),
+					'draft'		=> __( 'Draft' ),
+					'future'	=> __( 'Future' ),
+					'private'	=> __( 'Private' ),
+					'inherit'	=> __( 'Revision' ),
+					'trash'		=> __( 'Trash' )
 				);
 								
 				break;
@@ -745,7 +743,7 @@ class acf_field_group
 
 				if( is_multisite() )
 				{
-					$choices['super_admin'] = __('Super Admin', 'acf');
+					$choices['super_admin'] = __('Super Admin');
 				}
 								
 				break;
