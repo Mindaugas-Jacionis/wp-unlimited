@@ -57,6 +57,9 @@ define('NONCE_SALT',       'G*Sh8Ay(;@&Gw*|Y=?$:X~`oG4Ys<d8gK7#i3..MISjQWG>sR6Wt
 
 /**#@-*/
 
+/**Removes p tags from Contact Form 7**/
+define('WPCF7_AUTOP', false);
+
 /**
  * WordPress Database Table prefix.
  *

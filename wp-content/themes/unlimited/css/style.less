@@ -79,9 +79,9 @@
     margin-bottom: 75px;
 }
 
-.PaginationButton{
-	width: 40px;
-	height: 40px;
+.Buttons(@width: 40px, @height: 40px){
+	width: @width;
+	height: @height;
 	opacity: 0.85;
 	background-color: @gold;
 	border: none;
@@ -262,7 +262,7 @@
 					position: relative;
 
 					button{
-						.PaginationButton;
+						.Buttons;
 
 						&.next-page{
 							right: 0;
@@ -471,6 +471,125 @@
 					border-left: 1px solid @gold;
 				}
 			}
+
+			&.contacts-page{
+				.content-bottom{
+					form{
+						.form-label{
+							font-family: bebasneue_bold;
+							font-size: 28px;
+							line-height: 28px;
+							padding: 35px 0 20px;
+							color: @white;
+						}
+
+						.wpcf7-response-output{
+							display: none !important;
+						}
+
+						.wpcf7-not-valid-tip{
+							display: none !important;
+						}
+
+						input, textarea{
+							//background: @white;
+							color: @black;
+							box-sizing: border-box;
+							border-radius: 3px;
+							border: none;
+							padding: 0 10px;
+							line-height: 26px;
+							font-size: 22px;
+							font-family: bebasneue_bold;
+
+							&::-webkit-input-placeholder{
+    							color: @black;
+							}
+
+							&:-moz-placeholder{
+    							color: @black;
+							}
+
+							&::-moz-placeholder{
+    							color: @black;
+							}
+
+							&:-ms-input-placeholder{
+    							color: @black;
+							}
+
+							&.wpcf7-not-valid{
+								&::-webkit-input-placeholder{
+	    							color: @red;
+								}
+
+								&:-moz-placeholder{
+	    							color: @red;
+								}
+
+								&::-moz-placeholder{
+	    							color: @red;
+								}
+
+								&:-ms-input-placeholder{
+	    							color: @red;
+								}
+							}
+						}
+
+						textarea{
+							padding-top: 10px;
+						}
+
+						.two-fields{
+							display: flex;
+							flex-wrap: wrap;
+							-webkit-justify-content: space-between;
+							justify-content: space-between;
+
+							span{
+								width: 49%;
+								height: 40px;
+								padding-bottom: 20px;
+
+								.input-field{
+									width: 100%;
+									height: 40px;
+								}
+							}
+						}
+
+						span{
+							&.contact-message{
+								width: 100%;
+								box-sizing: border-box;
+
+								textarea{
+									padding-bottom: 25px;
+									width: 100%;
+								}
+							}
+						}
+
+						.submit-wrapper{
+							width: 100%;
+							position: relative;
+							margin-top: 15px;
+
+							.contact-submit{
+								.Buttons(250px, 40px);
+								opacity: 1;
+								display: block;
+								font-family: bebasneue_bold;
+								font-size: 26px;
+								text-align: center;
+								position: absolute;
+								right: 0;
+							}
+						}
+					}
+				}
+			}
 		}
 
         .gallery{
@@ -557,7 +676,7 @@
 
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-between;
             -webkit-justify-content: space-between;
 
             h2{

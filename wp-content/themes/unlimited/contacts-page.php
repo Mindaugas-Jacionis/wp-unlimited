@@ -10,7 +10,7 @@ get_header(); ?>
 	<?php
         $contactForm = get_field("contact_form");
 	?>
-	<div class="content-wrap">
+	<div class="content-wrap contacts-page">
 		<h1 class="page-headline"><?php the_title(); ?></h1>
 		<div class="contacts-list">
 			<?php
